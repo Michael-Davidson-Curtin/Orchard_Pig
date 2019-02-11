@@ -7,7 +7,7 @@ src:url(ROCKEB.ttf);
 }
 
 .cursor{
-  cursor: url(/img/MiniPigCursor.png), auto;
+  cursor: url(../img/MiniPigCursor.png), auto;
 }
 
 
@@ -41,7 +41,7 @@ text-shadow: 5px 5px #363636;
 
 
 #Hero_Background___Home {
-    background:url('/img/OP all-pump-clips-DSC.jpg') no-repeat center;   
+    background:url('../img/OP\ all-pump-clips-DSC.jpg') no-repeat center;   
     background-size: cover;
     background-color: rgb(249, 235, 217);
     height: 701px;
@@ -112,14 +112,14 @@ text-align: center;
 /*Content Section styling */
 #drinks,#about,#contact
 {
-    background:url('/img/oak.jpg') no-repeat center;   
+    background:url('../img/oak.jpg') no-repeat center;   
     background-size: cover;
     height:800px;
     
 }
 
 #about{
-    background:url('/img/oak.jpg') no-repeat center;   
+    background:url('../img/oak.jpg') no-repeat center;   
     background-size: cover;
     height:1200px;
 }
@@ -146,7 +146,7 @@ h1
 
 .info_image
 {
-    background :url('/img/bottles-main.png') no-repeat center;
+    background :url('../img/bottles-main.png') no-repeat center;
     background-size: contain;
     width:500px;
     height:400px;
@@ -189,7 +189,7 @@ h1
 }
 
 #main-text{
-    background:url('/img/Orchard_pig_logo_shadow.png') no-repeat center;
+    background:url('../img/Orchard_pig_logo_shadow.png') no-repeat center;
     height: 300px;
     position: relative;
     left: 2%;
@@ -202,7 +202,7 @@ h1
 
 #social_info
 {
-    background:url('/img/barrels.png') no-repeat center;
+    background:url('../img/barrels.png') no-repeat center;
     position: relative;
     background-size: contain;
     height:540px;
@@ -240,4 +240,4 @@ h1
           font-size: 3.5rem;
         }
       }
-    </style>
+    

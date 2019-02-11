@@ -1,1 +1,0 @@
-<div class="sass-box"></div>

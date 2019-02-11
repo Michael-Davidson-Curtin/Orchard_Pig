@@ -126,7 +126,7 @@
            <div class="container" >
              <div class="col-2"></div>
              <div class="col-12 " >
-            <img src="/img/Somerset.png" id="pictures"></img>
+            <img src="img\Somerset.png" id="pictures"></img>
             
              </div>
           <div class="col-2"></div>
@@ -135,7 +135,7 @@
       <div class="container" >
              <div class="col-1"></div>
              <div class="col-12 " id="info">
-                     <div class="about_image"><img src="/img/OPlogo2012large.png" ></div>
+                     <div class="about_image"><img src="img\OPlogo2012large.png" ></div>
                      <div class="info_panel">
                          <article id="main-info">
                              <h2>Rooted in Somerset....</h2>
@@ -162,10 +162,10 @@
            <div class="container" >
              <div class="col-2"></div>
              <div class="col-12" id="social_info" >
-            <img src="img/OrchardPigsilhouette.png" id="top_logo"/>
+            <img src="img\OrchardPigsilhouette.png" id="top_logo"/>
             <div class="social_information">
                 <p>Follow us on social media</p><br>
-                <img src="img/Social Media Links.png"/>
+                <img src="..img/Social Media Links.png"/>
                 
             </div>
              </div>
