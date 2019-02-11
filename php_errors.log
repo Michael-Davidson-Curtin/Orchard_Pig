@@ -1,0 +1,110 @@
+[27-Jan-2019 01:08:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 14
+[27-Jan-2019 01:08:00 UTC] PHP Stack trace:
+[27-Jan-2019 01:08:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 01:08:00 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/API/get_drinks_by_category.php:14
+[27-Jan-2019 01:08:31 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 14
+[27-Jan-2019 01:08:31 UTC] PHP Stack trace:
+[27-Jan-2019 01:08:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 01:08:31 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/API/get_drinks_by_category.php:14
+[27-Jan-2019 01:09:17 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 15
+[27-Jan-2019 01:09:17 UTC] PHP Stack trace:
+[27-Jan-2019 01:09:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 01:09:17 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/API/get_drinks_by_category.php:15
+[27-Jan-2019 01:12:00 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 10
+[27-Jan-2019 01:13:31 UTC] PHP Parse error:  syntax error, unexpected '""' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 10
+[27-Jan-2019 01:13:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 15
+[27-Jan-2019 01:13:56 UTC] PHP Stack trace:
+[27-Jan-2019 01:13:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 01:13:56 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/API/get_drinks_by_category.php:15
+[27-Jan-2019 01:14:11 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 15
+[27-Jan-2019 01:14:11 UTC] PHP Stack trace:
+[27-Jan-2019 01:14:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 01:14:11 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/API/get_drinks_by_category.php:15
+[27-Jan-2019 01:15:34 UTC] PHP Fatal error:  Undefined constant 'n' in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 21
+[27-Jan-2019 01:15:34 UTC] PHP Stack trace:
+[27-Jan-2019 01:15:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 01:15:49 UTC] PHP Notice:  Undefined variable: row in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 21
+[27-Jan-2019 01:15:49 UTC] PHP Stack trace:
+[27-Jan-2019 01:15:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 01:15:49 UTC] PHP Notice:  Use of undefined constant n - assumed 'n' in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 21
+[27-Jan-2019 01:15:49 UTC] PHP Stack trace:
+[27-Jan-2019 01:15:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 01:15:49 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 21
+[27-Jan-2019 01:15:49 UTC] PHP Stack trace:
+[27-Jan-2019 01:15:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 01:16:08 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 23
+[27-Jan-2019 01:16:20 UTC] PHP Notice:  Undefined variable: row in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 21
+[27-Jan-2019 01:16:20 UTC] PHP Stack trace:
+[27-Jan-2019 01:16:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 01:16:34 UTC] PHP Notice:  Undefined variable: row in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 21
+[27-Jan-2019 01:16:34 UTC] PHP Stack trace:
+[27-Jan-2019 01:16:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 01:17:00 UTC] PHP Notice:  Undefined variable: row in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 21
+[27-Jan-2019 01:17:00 UTC] PHP Stack trace:
+[27-Jan-2019 01:17:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 01:17:15 UTC] PHP Notice:  Undefined variable: row in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 21
+[27-Jan-2019 01:17:15 UTC] PHP Stack trace:
+[27-Jan-2019 01:17:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 01:17:31 UTC] PHP Notice:  Undefined variable: row in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 20
+[27-Jan-2019 01:17:31 UTC] PHP Stack trace:
+[27-Jan-2019 01:17:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 07:56:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 14
+[27-Jan-2019 07:56:21 UTC] PHP Stack trace:
+[27-Jan-2019 07:56:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 07:56:21 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/API/get_drinks_by_category.php:14
+[27-Jan-2019 07:56:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 14
+[27-Jan-2019 07:56:51 UTC] PHP Stack trace:
+[27-Jan-2019 07:56:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 07:56:51 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/API/get_drinks_by_category.php:14
+[27-Jan-2019 07:58:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 15
+[27-Jan-2019 07:58:08 UTC] PHP Stack trace:
+[27-Jan-2019 07:58:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 07:58:08 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/API/get_drinks_by_category.php:15
+[27-Jan-2019 07:58:24 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 15
+[27-Jan-2019 07:58:24 UTC] PHP Stack trace:
+[27-Jan-2019 07:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 07:58:24 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/API/get_drinks_by_category.php:15
+[27-Jan-2019 08:08:20 UTC] PHP Notice:  Array to string conversion in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 20
+[27-Jan-2019 08:08:20 UTC] PHP Stack trace:
+[27-Jan-2019 08:08:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 08:10:50 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 15
+[27-Jan-2019 08:10:50 UTC] PHP Stack trace:
+[27-Jan-2019 08:10:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 08:10:50 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/API/get_drinks_by_category.php:15
+[27-Jan-2019 08:11:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 15
+[27-Jan-2019 08:11:10 UTC] PHP Stack trace:
+[27-Jan-2019 08:11:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 08:11:10 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/API/get_drinks_by_category.php:15
+[27-Jan-2019 08:11:46 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 15
+[27-Jan-2019 08:11:46 UTC] PHP Stack trace:
+[27-Jan-2019 08:11:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 08:11:46 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/API/get_drinks_by_category.php:15
+[27-Jan-2019 08:22:36 UTC] PHP Notice:  Undefined variable: query in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 10
+[27-Jan-2019 08:22:36 UTC] PHP Stack trace:
+[27-Jan-2019 08:22:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 08:22:36 UTC] PHP Warning:  mysqli_query(): Empty query in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 10
+[27-Jan-2019 08:22:36 UTC] PHP Stack trace:
+[27-Jan-2019 08:22:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 08:22:36 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/API/get_drinks_by_category.php:10
+[27-Jan-2019 08:22:36 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 12
+[27-Jan-2019 08:22:36 UTC] PHP Stack trace:
+[27-Jan-2019 08:22:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 08:22:36 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/API/get_drinks_by_category.php:12
+[27-Jan-2019 08:22:47 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 12
+[27-Jan-2019 08:22:47 UTC] PHP Stack trace:
+[27-Jan-2019 08:22:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 08:22:47 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/API/get_drinks_by_category.php:12
+[27-Jan-2019 08:24:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 13
+[27-Jan-2019 08:24:10 UTC] PHP Stack trace:
+[27-Jan-2019 08:24:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 08:24:10 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/API/get_drinks_by_category.php:13
+[27-Jan-2019 08:24:36 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 13
+[27-Jan-2019 08:24:36 UTC] PHP Stack trace:
+[27-Jan-2019 08:24:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 08:24:36 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/API/get_drinks_by_category.php:13
+[27-Jan-2019 08:24:54 UTC] PHP Parse error:  syntax error, unexpected 'Product' (T_STRING) in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 7
+[27-Jan-2019 08:27:12 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 13
+[27-Jan-2019 08:27:12 UTC] PHP Stack trace:
+[27-Jan-2019 08:27:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/API/get_drinks_by_category.php:0
+[27-Jan-2019 08:27:12 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/API/get_drinks_by_category.php:13
+[27-Jan-2019 08:39:05 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/API/get_drinks_by_category.php on line 18
