@@ -2,9 +2,12 @@
 @font-face {
   font-family: Rockwell-ExtraBold;
   /*src:url("/rockwell/rockwell-extrabold.otf");*/
-  src: url(ROCKEB.ttf); }
+  src: url(ROCKEB.ttf);
+}
+
 .cursor {
-  cursor: url(../img/MiniPigCursor.png), auto; }
+  cursor: url(../img/MiniPigCursor.png), auto;
+}
 
 /* Nav Bar Styles */
 #logo_text {
@@ -12,21 +15,26 @@
   font-size: 40pt;
   color: #f9ebd9;
   text-shadow: 5px 5px #363636;
-  text-align: center; }
+  text-align: center;
+}
 
 #our_drinks, #about_us, #contact_us {
   font-family: Rockwell-ExtraBold;
   font-size: 28pt;
-  text-shadow: 5px 5px #363636; }
+  text-shadow: 5px 5px #363636;
+}
 
 #our_drinks {
-  color: #adcc78; }
+  color: #adcc78;
+}
 
 #about_us {
-  color: #ed1941; }
+  color: #ed1941;
+}
 
 #contact_us {
-  color: #e18b5f; }
+  color: #e18b5f;
+}
 
 /*End Nav Bar */
 #Hero_Background___Home {
@@ -34,68 +42,120 @@
   background-size: cover;
   background-color: #f9ebd9;
   height: 701px;
-  position: relative; }
+  position: relative;
+}
 
 /*mini nav (drinks) */
 #green_patch {
   height: 72px;
-  background-color: #336666; }
+  background-color: #336666;
+}
 
 #green_patch div {
-  height: 72px; }
+  height: 72px;
+}
 
 #green_patch .col-sm {
-  text-align: center; }
+  text-align: center;
+}
 
 .signpost {
   position: inherit;
-  bottom: 153px; }
+  bottom: 153px;
+}
 
 #bottled:hover {
-  animation-name: waving_signpost;
-  animation-duration: 1s;
-  animation-iteration-count: 20; }
+  -webkit-animation-name: waving_signpost;
+          animation-name: waving_signpost;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 20;
+          animation-iteration-count: 20;
+}
 
 #draught:hover {
-  animation-name: waving_signpost;
-  animation-duration: 1s;
-  animation-iteration-count: 20; }
+  -webkit-animation-name: waving_signpost;
+          animation-name: waving_signpost;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 20;
+          animation-iteration-count: 20;
+}
 
 #juicy:hover {
-  animation-name: waving_signpost;
-  animation-duration: 1s;
-  animation-iteration-count: 20; }
+  -webkit-animation-name: waving_signpost;
+          animation-name: waving_signpost;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 20;
+          animation-iteration-count: 20;
+}
+
+@-webkit-keyframes waving_signpost {
+  10% {
+    -webkit-transform: rotate(-7deg);
+            transform: rotate(-7deg);
+  }
+  40% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  70% {
+    -webkit-transform: rotate(7deg);
+            transform: rotate(7deg);
+  }
+  100% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+}
 
 @keyframes waving_signpost {
   10% {
-    transform: rotate(-7deg); }
+    -webkit-transform: rotate(-7deg);
+            transform: rotate(-7deg);
+  }
   40% {
-    transform: rotate(-10deg); }
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
   70% {
-    transform: rotate(7deg); }
+    -webkit-transform: rotate(7deg);
+            transform: rotate(7deg);
+  }
   100% {
-    transform: rotate(10deg); } }
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+}
+
 /*mini nav (drinks) End*/
 /*Content Section styling */
 #drinks, #about, #contact {
   background: url("../img/oak.jpg") no-repeat center;
   background-size: cover;
-  height: 800px; }
+  height: 800px;
+}
 
 #about {
   background: url("../img/oak.jpg") no-repeat center;
   background-size: cover;
-  height: 1200px; }
+  height: 1200px;
+}
 
 h1 {
   font-family: Rockwell-ExtraBold;
   text-align: center;
   color: #f9ebd9;
-  text-shadow: 5px 5px #363636; }
+  text-shadow: 5px 5px #363636;
+}
 
 #info {
   margin-top: 10%;
-  display: inline-flex; }
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
 
 .info_image {
   background: url("../img/bottles-main.png") no-repeat center;
@@ -103,7 +163,8 @@ h1 {
   width: 500px;
   height: 400px;
   background-color: #f9ebd9;
-  border-radius: 25px 0px 0px 25px; }
+  border-radius: 25px 0px 0px 25px;
+}
 
 .about_image {
   /*background:url('/img/OPlogo2012large.png') no-repeat center;*/
@@ -112,7 +173,8 @@ h1 {
   height: 400px;
   background-color: #f9ebd9;
   padding: 80px 60px 60px 60px;
-  border-radius: 25px 0px 0px 25px; }
+  border-radius: 25px 0px 0px 25px;
+}
 
 .info_panel {
   background-size: cover;
@@ -120,13 +182,16 @@ h1 {
   height: 400px;
   background-color: #f9ebd9;
   border-radius: 0px 25px 25px 0px;
-  font-family: Rockwell-ExtraBold; }
+  font-family: Rockwell-ExtraBold;
+}
 
 .info_panel h2 {
-  color: #2875a4; }
+  color: #2875a4;
+}
 
 .info_panel p {
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 #main-text {
   background: url("../img/Orchard_pig_logo_shadow.png") no-repeat center;
@@ -134,20 +199,24 @@ h1 {
   position: relative;
   left: 2%;
   width: 95%;
-  color: #60b7eb; }
+  color: #60b7eb;
+}
 
 #social_info {
   background: url("../img/barrels.png") no-repeat center;
   position: relative;
   background-size: contain;
   height: 540px;
-  width: 100%; }
+  width: 100%;
+}
 
 #top_logo {
   top: 50px;
   left: 0px;
   position: absolute;
-  transform: rotate(-10deg); }
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
 
 .social_information {
   position: absolute;
@@ -157,14 +226,17 @@ h1 {
   text-align: center;
   font-size: 24px;
   font-family: Rockwell-ExtraBold;
-  color: #f9ebd9; }
+  color: #f9ebd9;
+}
 
 .bd-placeholder-img {
   font-size: 1.125rem;
-  text-anchor: middle; }
+  text-anchor: middle;
+}
 
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
-    font-size: 3.5rem; } }
-
+    font-size: 3.5rem;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
