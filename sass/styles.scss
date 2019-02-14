@@ -1,3 +1,25 @@
+/*Variables*/
+/*colours*/
+$site-logo:#f9ebd9;
+$firstMenuText:#adcc78;
+$secondMenuText:#ed1941;
+$thirdMenuText:#e18b5f;
+//Drink colours
+$Reveller:#2e4a87;
+$Charmer:#f98847;
+$Truffler:#82bb61;
+$HogFather:#9a667d;
+$Explorer:#fcb316;
+$Navelgazer:#009d99;
+$GingernChill:#ed1941;
+$AppleTingler:#eee1a0;
+$AppleRambler:#adcc78;
+$FlowerPower:#e3c4cf;
+$VeryBerried:#f2b1bf;
+$DeeplyRooted:#f3aa5d;
+$TotallyMinted:#b9d7b8;
+
+
 /*Custom Assets*/
 
 @font-face{
@@ -10,15 +32,17 @@ src:url(ROCKEB.ttf);
   cursor: url(../img/MiniPigCursor.png), auto;
 }
 
-
+#cider{
+    color: #363636;
+}
 
 
 /* Nav Bar Styles */
 #logo_text
 {
 font-family: Rockwell-ExtraBold;
-font-size: 40pt;
-color:#f9ebd9;
+font-size: 28pt;
+color:$site-logo;
 text-shadow: 5px 5px #363636;
 text-align: center;
 
@@ -30,13 +54,11 @@ text-align: center;
     text-shadow: 5px 5px #363636;
 }
 
-#our_drinks{color: #adcc78;}
+#our_drinks{color: $firstMenuText;}
 
-#about_us{color: #ed1941;}
+#about_us{color: $secondMenuText;}
 
-#contact_us{color: #e18b5f;
-    
-}
+#contact_us{color: $thirdMenuText;}
 
 /*End Nav Bar */
 
@@ -232,6 +254,26 @@ h1
   color:#f9ebd9;
 
 }
+
+#test{
+    font-size:100px;
+}
+
+/*Drinks Links Color ids*/
+#Reveller{color:$Reveller;}
+#Charmer{color:$Charmer;}
+#Truffler{color:$Truffler;}
+#HogFather{color:$HogFather;}
+#Explorer{color:$Explorer;}
+#Navelgazer{color:$Navelgazer;}
+#GingernChill{color:$GingernChill;}
+#AppleTingler{color:$AppleTingler;}
+#AppleRambler{color:$AppleRambler;}
+#FlowerPower{color:$FlowerPower;}
+#VeryBerried{color:$VeryBerried;}
+#DeeplyRooted{color:$DeeplyRooted;}
+#TotallyMinted{color:$TotallyMinted;}
+/*end*/
 
  .bd-placeholder-img {
         font-size: 1.125rem;

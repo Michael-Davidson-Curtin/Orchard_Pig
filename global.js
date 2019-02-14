@@ -1,29 +1,43 @@
 $(document).ready(function(){
-     $('#bottled_info').show();
-     $('#draughty_info').hide();
-     $('#juicy_info').hide();
+   
+    
 //When the doc loads have bottled as visible
 $('#bottled').on('click',function(){
+    var id=0;
     console.log("you clicked the Bottled button");
-    $('#bottled_info').show();
-    $('#draughty_info').show();
-    $('#juicy_info').hide();
+    //get from Json the category information for bottled drinks and assemble here
+    $.getJSON("API/get_drink_categories.php?id=0",function(json){
+        console.log(json);
+        $('#heading').replaceWith("<h2>"+json[id].Short_Description+"</h2>"); 
+        $('#main-text').replaceWith("<div id='main-text'><p>"+json[id].Long_Description+"<p></div>");
+    });
+    $.getJSON("API/get_drinks_by_category.php?id="+id,function(drinks){
+        console.log(drinks);
+        for (i=0;i<drinks.length;i++)
+        {
+            $('#drink_links').append("<div class='col-3'><p id="+drinks[i].name+">"+drinks[i].name+"</p></div>");    
+        }
+        //go throught the list of drinks returned and for each of them create a 
+        //<div class="col-3" style="color:#2e4a87;"><p>Reveller</p></div>
+    });
+    
+    
+   
    
 });
 
 $('#draught').on('click',function(){
     console.log("you clicked the Draught button");
-    $('#draughty_info').show();
-    $('#bottled_info').hide();
-    $('#juicy_info').hide();
+    //get from Json the category information for Draught drinks and assemble here
+ 
     
 });
 
 $('#juicy').on('click',function(){
     console.log("you clicked the Juicy button");
-    $('#bottled_info').hide();
-    $('#draughty_info').hide();
-    $('#juicy_info').show();
+    //get from Json the category information for Juicy drinks and assemble here
+   
 });
+
 
 });//end page

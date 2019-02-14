@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 
 //Michael DB Config
 $dbhost = "127.0.0.1";
-$dbuser = "michaeldavidsond";
+$dbuser = "root";
 $dbpass = "";
 $dbname = "Orchard_Pig";
 

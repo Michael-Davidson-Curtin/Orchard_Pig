@@ -1,3 +1,5 @@
+/*Variables*/
+/*colours*/
 /*Custom Assets*/
 @font-face {
   font-family: Rockwell-ExtraBold;
@@ -9,10 +11,14 @@
   cursor: url(../img/MiniPigCursor.png), auto;
 }
 
+#cider {
+  color: #363636;
+}
+
 /* Nav Bar Styles */
 #logo_text {
   font-family: Rockwell-ExtraBold;
-  font-size: 40pt;
+  font-size: 28pt;
   color: #f9ebd9;
   text-shadow: 5px 5px #363636;
   text-align: center;
@@ -229,6 +235,64 @@ h1 {
   color: #f9ebd9;
 }
 
+#test {
+  font-size: 100px;
+}
+
+/*Drinks Links Color ids*/
+#Reveller {
+  color: #2e4a87;
+}
+
+#Charmer {
+  color: #f98847;
+}
+
+#Truffler {
+  color: #82bb61;
+}
+
+#HogFather {
+  color: #9a667d;
+}
+
+#Explorer {
+  color: #fcb316;
+}
+
+#Navelgazer {
+  color: #009d99;
+}
+
+#GingernChill {
+  color: #ed1941;
+}
+
+#AppleTingler {
+  color: #eee1a0;
+}
+
+#AppleRambler {
+  color: #adcc78;
+}
+
+#FlowerPower {
+  color: #e3c4cf;
+}
+
+#VeryBerried {
+  color: #f2b1bf;
+}
+
+#DeeplyRooted {
+  color: #f3aa5d;
+}
+
+#TotallyMinted {
+  color: #b9d7b8;
+}
+
+/*end*/
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
