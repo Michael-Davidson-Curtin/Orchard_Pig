@@ -49,15 +49,16 @@ src:url(ROCKEB.ttf);
                 font-size: 28pt;
                 color: $site-logo;
             }
-        #our_drinks
+        #our_drinks,#bottled_products
             {
                 color: $firstMenuText;
-            }   
-        #about_us
+            }
+        #about_us,#draught_products
             {
                 color:$secondMenuText;
             }
-        #contact_us
+        
+        #contact_us,#juicy_products
             {   
                 color:$thirdMenuText;
             }   
@@ -132,6 +133,9 @@ text-align: center;
       100%   {transform: rotate(10deg);}
       
 }
+
+
+
 
 
 /*mini nav (drinks) End*/

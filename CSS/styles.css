@@ -19,11 +19,11 @@
     font-family: Rockwell-ExtraBold;
     font-size: 28pt;
     color: #f9ebd9; }
-  .navbar-dark #our_drinks {
+  .navbar-dark #our_drinks, .navbar-dark #bottled_products {
     color: #adcc78; }
-  .navbar-dark #about_us {
+  .navbar-dark #about_us, .navbar-dark #draught_products {
     color: #ed1941; }
-  .navbar-dark #contact_us {
+  .navbar-dark #contact_us, .navbar-dark #juicy_products {
     color: #e18b5f; }
 
 /*End Nav Bar */

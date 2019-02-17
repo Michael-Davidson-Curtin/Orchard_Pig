@@ -33,7 +33,7 @@ $('#bottled').on('click',function(){
         for (i=0;i<drinks.length;i++)
         {
             //$('#drinks-links').html("<a href='#' class='card-link' id='drink"+i+"'>"+drinks[i].name+"</a>");           
-            $('#drinks-links').append("<a href='#' class='card-link' id="+drinks[i].name+">"+drinks[i].name+"</a>");   
+            $('#drinks-links').append("<a href='Products.php?id="+drinks[i].id+"&"+drinks[i].category_id+"' class='card-link' id="+drinks[i].name+">"+drinks[i].name+"</a>");   
         }
  });
 });

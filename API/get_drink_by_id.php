@@ -2,9 +2,9 @@
 //this API will provide a list of beverage categories. This will be used to populate the main.php drinks section
 require '../config.php';
 require_once('../functions.php');
-if(!isset($_POST['id'])
+if(!isset($_GET['id'])
 {
-    $id=$_POST['id'];
+    $id=$_GET['id'];
 }
 //hard coded test value
 
