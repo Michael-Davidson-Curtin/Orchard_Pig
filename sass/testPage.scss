@@ -1,0 +1,29 @@
+@font-face{
+    font-family: Rockwell-ExtraBold;
+    src:url(ROCKEB.ttf);
+    }
+    $site-logo:#f9ebd9;
+    $firstMenuText:#adcc78;
+    $secondMenuText:#ed1941;
+    $thirdMenuText:#e18b5f;
+
+    .navbar-dark
+    {
+        font-family: Rockwell-ExtraBold;
+        font-size: 28pt;
+        .navbar-brand 
+            {
+                font-family: Rockwell-ExtraBold;
+                font-size: 28pt;
+                color: $site-logo;
+            }
+        #about
+            {
+                color:$secondMenuText;
+            }
+        #followUs
+            {   
+                color:$thirdMenuText;
+            }   
+    }
+

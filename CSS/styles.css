@@ -1,3 +1,5 @@
+/*Variables*/
+/*colours*/
 /*Custom Assets*/
 @font-face {
   font-family: Rockwell-ExtraBold;
@@ -6,34 +8,28 @@
 .cursor {
   cursor: url(../img/MiniPigCursor.png), auto; }
 
+#cider {
+  color: #363636; }
+
 /* Nav Bar Styles */
-#logo_text {
+.navbar-dark {
   font-family: Rockwell-ExtraBold;
-  font-size: 40pt;
-  color: #f9ebd9;
-  text-shadow: 5px 5px #363636;
-  text-align: center;
-  text-emphasis: none; }
-
-#our_drinks, #about_us, #contact_us {
-  font-family: Rockwell-ExtraBold;
-  font-size: 28pt;
-  text-shadow: 5px 5px #363636; }
-
-#our_drinks {
-  color: #adcc78; }
-
-#about_us {
-  color: #ed1941; }
-
-#contact_us {
-  color: #e18b5f; }
+  font-size: 28pt; }
+  .navbar-dark .navbar-brand {
+    font-family: Rockwell-ExtraBold;
+    font-size: 28pt;
+    color: #f9ebd9; }
+  .navbar-dark #our_drinks {
+    color: #adcc78; }
+  .navbar-dark #about_us {
+    color: #ed1941; }
+  .navbar-dark #contact_us {
+    color: #e18b5f; }
 
 /*End Nav Bar */
 #Hero_Background___Home {
   background: url("../img/OP all-pump-clips-DSC.jpg") no-repeat center;
   background-size: cover;
-  background-color: #f9ebd9;
   height: 701px;
   position: relative; }
 
@@ -77,6 +73,11 @@
   100% {
     transform: rotate(10deg); } }
 /*mini nav (drinks) End*/
+#drink-card {
+  height: inherit;
+  margin-top: 150px;
+  width: 100%; }
+
 /*Content Section styling */
 #drinks, #about, #contact {
   background: url("../img/oak.jpg") no-repeat center;
@@ -123,6 +124,10 @@ h1 {
   border-radius: 0px 25px 25px 0px;
   font-family: Rockwell-ExtraBold; }
 
+#drinks-links {
+  font-size: 18pt;
+  font-family: Rockwell-ExtraBold; }
+
 .info_panel h2 {
   color: #2875a4; }
 
@@ -160,6 +165,50 @@ h1 {
   font-family: Rockwell-ExtraBold;
   color: #f9ebd9; }
 
+#test {
+  font-size: 100px; }
+
+/*Drinks Links Color ids*/
+#Reveller {
+  color: #2e4a87; }
+
+#Charmer {
+  color: #f98847; }
+
+#Truffler {
+  color: #82bb61; }
+
+#HogFather {
+  color: #9a667d; }
+
+#Explorer {
+  color: #fcb316; }
+
+#Navelgazer {
+  color: #009d99; }
+
+#Ginger {
+  color: #ed1941; }
+
+#juicy10 {
+  color: #eee1a0; }
+
+#juicy11 {
+  color: #adcc78; }
+
+#juicy12 {
+  color: #e3c4cf; }
+
+#juicy13 {
+  color: #f2b1bf; }
+
+#juicy14 {
+  color: #f3aa5d; }
+
+#juicy15 {
+  color: #b9d7b8; }
+
+/*end*/
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle; }
@@ -167,5 +216,3 @@ h1 {
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem; } }
-
-/*# sourceMappingURL=styles.css.map */

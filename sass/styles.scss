@@ -20,6 +20,8 @@ $DeeplyRooted:#f3aa5d;
 $TotallyMinted:#b9d7b8;
 
 
+
+
 /*Custom Assets*/
 
 @font-face{
@@ -35,43 +37,44 @@ src:url(ROCKEB.ttf);
 #cider{
     color: #363636;
 }
-
-
 /* Nav Bar Styles */
-#logo_text
-{
-font-family: Rockwell-ExtraBold;
-font-size: 28pt;
-color:$site-logo;
-text-shadow: 5px 5px #363636;
-text-align: center;
 
-}
+.navbar-dark
+    {
+        font-family: Rockwell-ExtraBold;
+        font-size: 28pt;
+        .navbar-brand 
+            {
+                font-family: Rockwell-ExtraBold;
+                font-size: 28pt;
+                color: $site-logo;
+            }
+        #our_drinks
+            {
+                color: $firstMenuText;
+            }   
+        #about_us
+            {
+                color:$secondMenuText;
+            }
+        #contact_us
+            {   
+                color:$thirdMenuText;
+            }   
+    }
 
-#our_drinks,#about_us,#contact_us{
-    font-family: Rockwell-ExtraBold;
-    font-size: 28pt;
-    text-shadow: 5px 5px #363636;
-}
-
-#our_drinks{color: $firstMenuText;}
-
-#about_us{color: $secondMenuText;}
-
-#contact_us{color: $thirdMenuText;}
 
 /*End Nav Bar */
 
 
 
-#Hero_Background___Home {
-    background:url('../img/OP\ all-pump-clips-DSC.jpg') no-repeat center;   
-    background-size: cover;
-    background-color: rgb(249, 235, 217);
-    height: 701px;
-    position: relative;
-    
-}
+#Hero_Background___Home 
+    {
+            background:url('../img/OP\ all-pump-clips-DSC.jpg') no-repeat center;   
+            background-size: cover;
+            height: 701px;
+            position: relative;
+    }
 
 
 /*mini nav (drinks) */
@@ -132,7 +135,12 @@ text-align: center;
 
 
 /*mini nav (drinks) End*/
-
+#drink-card
+{
+    height: inherit;
+    margin-top: 150px;
+    width: 100%;
+}
 
 /*Content Section styling */
 #drinks,#about,#contact
@@ -202,6 +210,11 @@ h1
     font-family: Rockwell-ExtraBold;
 }
 
+#drinks-links{
+    font-size: 18pt;
+    font-family: Rockwell-ExtraBold;
+}
+
 .info_panel h2
 {
     color:#2875a4;
@@ -266,13 +279,13 @@ h1
 #HogFather{color:$HogFather;}
 #Explorer{color:$Explorer;}
 #Navelgazer{color:$Navelgazer;}
-#GingernChill{color:$GingernChill;}
-#AppleTingler{color:$AppleTingler;}
-#AppleRambler{color:$AppleRambler;}
-#FlowerPower{color:$FlowerPower;}
-#VeryBerried{color:$VeryBerried;}
-#DeeplyRooted{color:$DeeplyRooted;}
-#TotallyMinted{color:$TotallyMinted;}
+#Ginger{color:$GingernChill;}
+#juicy10{color:$AppleTingler;}//AppleTingler
+#juicy11{color:$AppleRambler;}//AppleRambler
+#juicy12{color:$FlowerPower;}//FlowerPower
+#juicy13{color:$VeryBerried;}//VeryBerried
+#juicy14{color:$DeeplyRooted;}//DeeplyRooted
+#juicy15{color:$TotallyMinted;}//TotallyMinted
 /*end*/
 
  .bd-placeholder-img {

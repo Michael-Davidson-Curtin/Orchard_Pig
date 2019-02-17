@@ -16,29 +16,26 @@
 }
 
 /* Nav Bar Styles */
-#logo_text {
+.navbar-dark {
+  font-family: Rockwell-ExtraBold;
+  font-size: 28pt;
+}
+
+.navbar-dark .navbar-brand {
   font-family: Rockwell-ExtraBold;
   font-size: 28pt;
   color: #f9ebd9;
-  text-shadow: 5px 5px #363636;
-  text-align: center;
 }
 
-#our_drinks, #about_us, #contact_us {
-  font-family: Rockwell-ExtraBold;
-  font-size: 28pt;
-  text-shadow: 5px 5px #363636;
-}
-
-#our_drinks {
+.navbar-dark #our_drinks {
   color: #adcc78;
 }
 
-#about_us {
+.navbar-dark #about_us {
   color: #ed1941;
 }
 
-#contact_us {
+.navbar-dark #contact_us {
   color: #e18b5f;
 }
 
@@ -46,7 +43,6 @@
 #Hero_Background___Home {
   background: url("../img/OP all-pump-clips-DSC.jpg") no-repeat center;
   background-size: cover;
-  background-color: #f9ebd9;
   height: 701px;
   position: relative;
 }
@@ -136,6 +132,12 @@
 }
 
 /*mini nav (drinks) End*/
+#drink-card {
+  height: inherit;
+  margin-top: 150px;
+  width: 100%;
+}
+
 /*Content Section styling */
 #drinks, #about, #contact {
   background: url("../img/oak.jpg") no-repeat center;
@@ -188,6 +190,11 @@ h1 {
   height: 400px;
   background-color: #f9ebd9;
   border-radius: 0px 25px 25px 0px;
+  font-family: Rockwell-ExtraBold;
+}
+
+#drinks-links {
+  font-size: 18pt;
   font-family: Rockwell-ExtraBold;
 }
 
@@ -264,31 +271,31 @@ h1 {
   color: #009d99;
 }
 
-#GingernChill {
+#Ginger {
   color: #ed1941;
 }
 
-#AppleTingler {
+#juicy10 {
   color: #eee1a0;
 }
 
-#AppleRambler {
+#juicy11 {
   color: #adcc78;
 }
 
-#FlowerPower {
+#juicy12 {
   color: #e3c4cf;
 }
 
-#VeryBerried {
+#juicy13 {
   color: #f2b1bf;
 }
 
-#DeeplyRooted {
+#juicy14 {
   color: #f3aa5d;
 }
 
-#TotallyMinted {
+#juicy15 {
   color: #b9d7b8;
 }
 
