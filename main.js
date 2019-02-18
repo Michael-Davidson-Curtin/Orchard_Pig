@@ -3,7 +3,7 @@ $(document).ready(function()
 {
     var id=0;
     //get from Json the category information for bottled drinks and assemble here
-    $("#category_image").css({"background":"url('img/bottles-main.png') no-repeat center","background-size": "cover"});
+    $("#category_image").css({"background":"url('img/main-information/bottles-main.png') no-repeat center","background-size": "cover"});
     $.getJSON("API/get_drink_categories.php",function(json)
         {
             $('#drink_category_title').html(json[id].Short_Description); 
@@ -23,7 +23,7 @@ $(document).ready(function()
     {
     var id=0;
     //get from Json the category information for bottled drinks and assemble here
-    $("#category_image").css({"background":"url('img/bottles-main.png') no-repeat center","background-size": "cover"});
+    $("#category_image").css({"background":"url('img/main-information/bottles-main.png') no-repeat center","background-size": "cover"});
     $.getJSON("API/get_drink_categories.php",function(json)
         {
             $('#drink_category_title').html(json[id].Short_Description); 
@@ -44,7 +44,7 @@ $(document).ready(function()
     {
     var id=1;
     //get from Json the category information for Draught drinks and assemble here
-    $("#category_image").css({"background":"url('img/OP pint.png') no-repeat center","background-size": "cover"});
+    $("#category_image").css({"background":"url('img/main-information/OP pint.png') no-repeat center","background-size": "cover"});
     $.getJSON("API/get_drink_categories.php",function(json)
         {
             $('#drink_category_title').html(json[id].Short_Description); 
@@ -65,6 +65,7 @@ $(document).ready(function()
     {
     var id=2;
     //get from Json the category information for bottled drinks and assemble here
+    $("#category_image").css({"background":"url('img/main-information/juicy-main.png') no-repeat center","background-size": "cover"});
     $.getJSON("API/get_drink_categories.php",function(json)
         {
             $('#drink_category_title').html(json[id].Short_Description); 
