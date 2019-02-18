@@ -59,62 +59,39 @@
 <div class="container-fluid" id="drinks">
 <!-- Drinks Information Panel Heading -->
   <h1>Our Drinks...</h1> 
-  <!-- Drinks Information Panel  -->
-    <div class="container" >
+  <!-- Drinks Information Panel  
+    <div class="container" > -->
     <!-- want to trial a horizontal card -->
-    <div class="card mb-3"  id="drink-card">
+    <div class="row">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-10">
+    <div class="card mb-3" style="max-width: 1200px;" id="drink_card">
       <div class="row no-gutters">
-        <div class="col-md-4">
-           <img src="img\bottles-main.png" class="card-img" alt="...">
+        <div class="col-md-4" id="category_image">
+           <!--<img src="img\bottles-main.png" class="card-img" alt="...">-->
         </div><!-- col-md-4 - End -->
-      <div class="col-md-8">
-        <div class="card-body">
+      <div class="col-md-8" id="main_card_body">
+        <div class="card-body" >
           <h5 class="card-title" id="drink_category_title"></h5>
           <p class="card-text" id="drink_category_text"></p>
-        <!-- Need links to drinks -->
-        <div id="drinks-links">
-        
-        </div>
-       
+        <br>
+          <!-- Need links to drinks -->
+        <div class = "row" id="drinks-links"><!--Drink content appended here--></div>
         <!-- Drink Links End -->
         </div><!-- card-body - End -->
       </div><!-- col-md-8 - End -->
       </div><!-- row - End -->
     </div> <!-- Drink-card - End -->
-    </div><!-- Container - End -->
+  </div>
+  <div class="col-lg-2"></div><!-- </div> Container - End -->
 </div><!--Container-fluid - End -->
         
-         <!--Blank Space 
-         <div class="col-1"></div>
-        <!-- Information 
-             <div id="bottled_info">
-             <div class="col-12 " id="info">
-                     <div class="info_image"></div>
-                     <div class="info_panel">
-                         <article id="main-info">
-                             <h2 id="heading"></h2>
-                             <div id="main-text">
-                             </div>
-                          <div class="row" id="drink_links">
+      
                             
                               
-                            <!--
-                              <div class="col-3" style="color:#f98847;"><p>Charmer</p></div>
-                            <div class="col-3" style="color:#82bb61;"><p>Truffler</p></div>
-                            <div class="col-3" style="color:#9a667d;"><p>Hog Father</p></div>
-
-                          </div>
-                         </article>
-                        </div>
-                        
-                     </div>    
-            </div>
-     
-             <div class="col-1"></div>
-             
          </div> -->
           
-       
+      <!-- Rest of Page 
       <div class="container-fluid" id="about">
       
           <h1>Our History...</h1>
@@ -171,12 +148,12 @@
           
       </div>
   </main>    
-  
+-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-<script src="global.js"></script>
+<script src="main.js"></script>
   </body>
 
 </html>

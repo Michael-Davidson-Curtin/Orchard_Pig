@@ -139,21 +139,52 @@ text-align: center;
 
 
 /*mini nav (drinks) End*/
-#drink-card
-{
-    height: inherit;
-    margin-top: 150px;
-    width: 100%;
-}
+
 
 /*Content Section styling */
 #drinks,#about,#contact
 {
     background:url('../img/oak.jpg') no-repeat center;   
     background-size: cover;
-    height:800px;
+    #drink_card
+    {
+        margin-top: 10%;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    #main_card_body
+    {
+        background-color: $site-logo;
+        font-family: Rockwell-ExtraBold;
+        border-radius: 0px 20px 20px 0px;
+        h5
+        {
+            //font-family: Rockwell-ExtraBold;
+            color: #2875a4; 
+            font-size: 1.75rem;
+        }
+        p
+        {
+            color:#60b7eb;
+            font-size: 1.25rem;
+        }
+        #drinks-links
+        {
+            font-size: 14pt;
+            font-family: Rockwell-ExtraBold;
+        }
+    }
+    #category_image
+        {
+        background:url('../img/bottles-main.png') no-repeat center;
+        background-size: cover;
+        border-radius: 20px 0px 0px 20px;
+        height:400px;
+        }
     
 }
+
+
 
 #about{
     background:url('../img/oak.jpg') no-repeat center;   
@@ -214,10 +245,7 @@ h1
     font-family: Rockwell-ExtraBold;
 }
 
-#drinks-links{
-    font-size: 18pt;
-    font-family: Rockwell-ExtraBold;
-}
+
 
 .info_panel h2
 {
