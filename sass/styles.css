@@ -45,6 +45,7 @@
   background-size: cover;
   margin-top: 80px;
   height: 701px;
+  position: relative;
 }
 
 /*mini nav (drinks) */
@@ -358,5 +359,36 @@ h1 {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+}
+
+#barrels_row {
+  width: 100%;
+  position: absolute;
+  background: url("../img/oak.jpg") no-repeat center;
+  background-size: cover;
+  bottom: 0px;
+  margin: 0px;
+}
+
+#products {
+  background: url("../img/oak.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 800px;
+  font-family: Rockwell-ExtraBold;
+}
+
+#products #product_card {
+  margin-top: 10%;
+  border-radius: 20px 20px 20px 20px;
+}
+
+#products #product_card h5 {
+  color: #2875a4;
+  font-size: 1.75rem;
+}
+
+#products #product_card p {
+  color: #60b7eb;
+  font-size: 1.25rem;
 }
 /*# sourceMappingURL=styles.css.map */

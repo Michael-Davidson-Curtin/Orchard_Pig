@@ -3,11 +3,14 @@
 require_once ('C:\xampp\htdocs\Orchard_Pig\config.php');
 //require_once('../functions.php');
 
-$category_id = ($_GET['id']);
 
 
-$query = "SELECT * FROM drinks WHERE category_id = $category_id";
+$category_id = $_GET['id'];
 
+$query = "SELECT drinks.id,drinks.category_id,categories.Category_Name,drinks.name AS drink_name,drinks.short_description,drinks.long_description";
+$query .=" FROM drinks";
+$query .=" LEFT JOIN categories";
+$query .=" ON drinks.category_id = categories.id WHERE drinks.category_id = ".$category_id.";";
 
 
 $result = mysqli_query($connection, $query);
