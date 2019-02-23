@@ -17,7 +17,7 @@ $(document).ready(function()
             $('#drinks-links').empty();
             for (i=0;i<drinks.length;i++)
             {
-                $('#drinks-links').append("<div class='col-md'><a href='Products.html?id="+drinks[i].id+"' class='card-link' id="+drinks[i].drink_name+">"+drinks[i].drink_name+"</a></div>");   
+                $('#drinks-links').append("<div class='col-md'><a href='Products.html?id="+drinks[i].id+"#products' class='card-link' id="+drinks[i].drink_name+">"+drinks[i].drink_name+"</a></div>");   
             }
         });
   
@@ -37,7 +37,7 @@ $(document).ready(function()
             $('#drinks-links').empty();
             for (i=0;i<drinks.length;i++)
             {
-                $('#drinks-links').append("<div class='col-md'><a href='Products.html?id="+drinks[i].id+"' class='card-link' id="+drinks[i].drink_name+">"+drinks[i].drink_name+"</a></div>");   
+                $('#drinks-links').append("<div class='col-md'><a href='Products.html?id="+drinks[i].id+"#products' class='card-link' id="+drinks[i].drink_name+">"+drinks[i].drink_name+"</a></div>");   
             }
         });
     });
@@ -58,7 +58,7 @@ $(document).ready(function()
             $('#drinks-links').empty();
             for (i=0;i<drinks.length;i++)
             {
-                $('#drinks-links').append("<div class='col-md'><a href='Products.html?id="+drinks[i].id+"' class='card-link' id="+drinks[i].drink_name+">"+drinks[i].drink_name+"</a></div");   
+                $('#drinks-links').append("<div class='col-md'><a href='Products.html?id="+drinks[i].id+"#products' class='card-link' id="+drinks[i].drink_name+">"+drinks[i].drink_name+"</a></div");   
             }
         });
     });
@@ -79,7 +79,7 @@ $(document).ready(function()
             $('#drinks-links').empty();
             for (i=0;i<drinks.length;i++)
             {
-                $('#drinks-links').append("<div class='col-md'><a href='Products.html?id="+drinks[i].id+"' class='card-link' id=juicy"+drinks[i].id+">"+drinks[i].drink_name+"</a></div>");   
+                $('#drinks-links').append("<div class='col-md'><a href='Products.html?id="+drinks[i].id+"#products' class='card-link' id=juicy"+drinks[i].id+">"+drinks[i].drink_name+"</a></div>");   
             }
         });
     });
