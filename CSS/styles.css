@@ -8,31 +8,45 @@
 .cursor {
   cursor: url(../img/MiniPigCursor.png), auto; }
 
-#cider {
-  color: #363636; }
-
 /* Nav Bar Styles */
-.navbar-dark {
+.navbar-custom {
+  background-color: #2875a4 !important;
   font-family: Rockwell-ExtraBold;
   font-size: 28pt; }
-  .navbar-dark .navbar-brand {
+  .navbar-custom .navbar-brand {
     font-family: Rockwell-ExtraBold;
     font-size: 28pt;
     color: #f9ebd9; }
-  .navbar-dark #our_drinks, .navbar-dark #bottled_products {
+  .navbar-custom #our_drinks, .navbar-custom #bottled_products {
     color: #adcc78; }
-  .navbar-dark #about_us, .navbar-dark #draught_products {
+  .navbar-custom #about_us, .navbar-custom #draught_products {
     color: #ed1941; }
-  .navbar-dark #contact_us, .navbar-dark #juicy_products {
+  .navbar-custom #contact_us, .navbar-custom #juicy_products {
     color: #e18b5f; }
 
 /*End Nav Bar */
-#Hero_Background___Home {
+.page-hero {
   background: url("../img/all-pump-clips-DSC.jpg") no-repeat center;
   background-size: cover;
   margin-top: 80px;
   height: 701px;
   position: relative; }
+
+.section-backgrounds {
+  background: url("../img/oak.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 600px;
+  font-family: Rockwell-ExtraBold; }
+  .section-backgrounds h1 {
+    text-align: center;
+    color: #f9ebd9;
+    text-shadow: 5px 5px #363636; }
+  .section-backgrounds h5 {
+    color: #2875a4;
+    font-size: 1.75rem; }
+  .section-backgrounds p {
+    color: #60b7eb;
+    font-size: 1.25rem; }
 
 /*mini nav (drinks) */
 #green_patch {
@@ -78,8 +92,10 @@
 #drinks, #about {
   background: url("../img/oak.jpg") no-repeat center;
   background-size: cover;
-  min-height: 800px;
-  font-family: Rockwell-ExtraBold; }
+  min-height: 600px;
+  font-family: Rockwell-ExtraBold;
+  /*Drinks Links Color ids*/
+  /*end*/ }
   #drinks #drink_card, #about #drink_card {
     margin-top: 10%;
     border-radius: 20px 20px 20px 20px; }
@@ -105,167 +121,109 @@
     #drinks .carousel-caption h5, #about .carousel-caption h5 {
       font-size: 1.75rem;
       color: #2875a4; }
-  #drinks #main_card_body, #about #main_card_body {
-    background-color: #f9ebd9;
+    #drinks .carousel-caption #main_card_body, #about .carousel-caption #main_card_body {
+      background-color: #f9ebd9;
+      font-family: Rockwell-ExtraBold;
+      border-radius: 0px 20px 20px 0px; }
+      #drinks .carousel-caption #main_card_body #drinks-links, #about .carousel-caption #main_card_body #drinks-links {
+        font-size: 14pt;
+        font-family: Rockwell-ExtraBold; }
+    #drinks .carousel-caption #category_image, #about .carousel-caption #category_image {
+      background: url("../img/bottles-main.png") no-repeat center;
+      background-size: cover;
+      border-radius: 20px 0px 0px 20px; }
+    #drinks .carousel-caption #history_image, #about .carousel-caption #history_image {
+      background: url("../img/OPlogo2012large.png");
+      background-size: cover;
+      border-radius: 20px 0px 0px 20px;
+      height: 400px; }
+  #drinks h1, #about h1 {
     font-family: Rockwell-ExtraBold;
-    border-radius: 0px 20px 20px 0px; }
-    #drinks #main_card_body #drinks-links, #about #main_card_body #drinks-links {
-      font-size: 14pt;
-      font-family: Rockwell-ExtraBold; }
-  #drinks #category_image, #about #category_image {
-    background: url("../img/bottles-main.png") no-repeat center;
-    background-size: cover;
-    border-radius: 20px 0px 0px 20px; }
-  #drinks #history_image, #about #history_image {
-    background: url("../img/OPlogo2012large.png");
-    background-size: cover;
-    border-radius: 20px 0px 0px 20px;
-    height: 400px; }
-
-h1 {
-  font-family: Rockwell-ExtraBold;
-  text-align: center;
-  color: #f9ebd9;
-  text-shadow: 5px 5px #363636; }
-
-#info {
-  margin-top: 10%;
-  display: inline-flex; }
-
-.info_image {
-  background: url("../img/bottles-main.png") no-repeat center;
-  background-size: contain;
-  width: 500px;
-  height: 400px;
-  background-color: #f9ebd9;
-  border-radius: 25px 0px 0px 25px; }
-
-.about_image {
-  /*background:url('/img/OPlogo2012large.png') no-repeat center;*/
-  background-size: contain;
-  width: 480px;
-  height: 400px;
-  background-color: #f9ebd9;
-  padding: 80px 60px 60px 60px;
-  border-radius: 25px 0px 0px 25px; }
-
-.info_panel {
-  background-size: cover;
-  width: 903px;
-  height: 400px;
-  background-color: #f9ebd9;
-  border-radius: 0px 25px 25px 0px;
-  font-family: Rockwell-ExtraBold; }
-
-.info_panel h2 {
-  color: #2875a4; }
-
-.info_panel p {
-  font-size: 20px; }
-
-#main-text {
-  background: url("../img/Orchard_pig_logo_shadow.png") no-repeat center;
-  height: 300px;
-  position: relative;
-  left: 2%;
-  width: 95%;
-  color: #60b7eb; }
-
-#social_info {
-  background: url("../img/barrels.png") no-repeat center;
-  position: relative;
-  background-size: contain;
-  height: 540px;
-  width: 100%; }
-
-#top_logo {
-  top: 50px;
-  left: 0px;
-  position: absolute;
-  transform: rotate(-10deg); }
-
-.social_information {
-  position: absolute;
-  left: 0;
-  top: 40%;
-  width: 100%;
-  text-align: center;
-  font-size: 24px;
-  font-family: Rockwell-ExtraBold;
-  color: #f9ebd9; }
-
-#test {
-  font-size: 100px; }
-
-/*Drinks Links Color ids*/
-#Reveller {
-  color: #2e4a87; }
-
-#Charmer {
-  color: #f98847; }
-
-#Truffler {
-  color: #82bb61; }
-
-#HogFather {
-  color: #9a667d; }
-
-#Explorer {
-  color: #fcb316; }
-
-#Navelgazer {
-  color: #009d99; }
-
-#Ginger {
-  color: #ed1941; }
-
-#juicy10 {
-  color: #eee1a0; }
-
-#juicy11 {
-  color: #adcc78; }
-
-#juicy12 {
-  color: #e3c4cf; }
-
-#juicy13 {
-  color: #f2b1bf; }
-
-#juicy14 {
-  color: #f3aa5d; }
-
-#juicy15 {
-  color: #b9d7b8; }
-
-/*end*/
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle; }
-
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem; } }
-#barrels_row {
-  width: 100%;
-  position: absolute;
-  background: url("../img/oak.jpg") no-repeat center;
-  background-size: cover;
-  bottom: 0px;
-  margin: 0px; }
-
-#products {
-  background: url("../img/oak.jpg") no-repeat center;
-  background-size: cover;
-  min-height: 800px;
-  font-family: Rockwell-ExtraBold; }
-  #products #product_card {
+    text-align: center;
+    color: #f9ebd9;
+    text-shadow: 5px 5px #363636; }
+  #drinks #info, #about #info {
     margin-top: 10%;
-    border-radius: 20px 20px 20px 20px; }
-    #products #product_card h5 {
-      color: #2875a4;
-      font-size: 1.75rem; }
-    #products #product_card p {
-      color: #60b7eb;
-      font-size: 1.25rem; }
+    display: inline-flex; }
+  #drinks .info_image, #about .info_image {
+    background: url("../img/bottles-main.png") no-repeat center;
+    background-size: contain;
+    width: 500px;
+    height: 400px;
+    background-color: #f9ebd9;
+    border-radius: 25px 0px 0px 25px; }
+  #drinks .about_image, #about .about_image {
+    /*background:url('/img/OPlogo2012large.png') no-repeat center;*/
+    background-size: contain;
+    width: 480px;
+    height: 400px;
+    background-color: #f9ebd9;
+    padding: 80px 60px 60px 60px;
+    border-radius: 25px 0px 0px 25px; }
+  #drinks .info_panel, #about .info_panel {
+    background-size: cover;
+    width: 903px;
+    height: 400px;
+    background-color: #f9ebd9;
+    border-radius: 0px 25px 25px 0px;
+    font-family: Rockwell-ExtraBold; }
+  #drinks .info_panel h2, #about .info_panel h2 {
+    color: #2875a4; }
+  #drinks .info_panel p, #about .info_panel p {
+    font-size: 20px; }
+  #drinks #main-text, #about #main-text {
+    background: url("../img/Orchard_pig_logo_shadow.png") no-repeat center;
+    height: 300px;
+    position: relative;
+    left: 2%;
+    width: 95%;
+    color: #60b7eb; }
+  #drinks #Reveller, #about #Reveller {
+    color: #2e4a87; }
+  #drinks #Charmer, #about #Charmer {
+    color: #f98847; }
+  #drinks #Truffler, #about #Truffler {
+    color: #82bb61; }
+  #drinks #HogFather, #about #HogFather {
+    color: #9a667d; }
+  #drinks #Explorer, #about #Explorer {
+    color: #fcb316; }
+  #drinks #Navelgazer, #about #Navelgazer {
+    color: #009d99; }
+  #drinks #Ginger, #about #Ginger {
+    color: #ed1941; }
+  #drinks #juicy10, #about #juicy10 {
+    color: #eee1a0; }
+  #drinks #juicy11, #about #juicy11 {
+    color: #adcc78; }
+  #drinks #juicy12, #about #juicy12 {
+    color: #e3c4cf; }
+  #drinks #juicy13, #about #juicy13 {
+    color: #f2b1bf; }
+  #drinks #juicy14, #about #juicy14 {
+    color: #f3aa5d; }
+  #drinks #juicy15, #about #juicy15 {
+    color: #b9d7b8; }
+  #drinks #barrels_row, #about #barrels_row {
+    width: 100%;
+    position: absolute;
+    background: url("../img/oak.jpg") no-repeat center;
+    background-size: cover;
+    bottom: 0px;
+    margin: 0px; }
+  #drinks #products, #about #products {
+    background: url("../img/oak.jpg") no-repeat center;
+    background-size: cover;
+    min-height: 800px;
+    font-family: Rockwell-ExtraBold; }
+    #drinks #products #product_card, #about #products #product_card {
+      margin-top: 10%;
+      border-radius: 20px 20px 20px 20px; }
+      #drinks #products #product_card h5, #about #products #product_card h5 {
+        color: #2875a4;
+        font-size: 1.75rem; }
+      #drinks #products #product_card p, #about #products #product_card p {
+        color: #60b7eb;
+        font-size: 1.25rem; }
 
 /*# sourceMappingURL=styles.css.map */

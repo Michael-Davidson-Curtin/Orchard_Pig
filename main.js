@@ -17,8 +17,11 @@ $(document).ready(function()
             $('#drinks-links').empty();
             for (i=0;i<drinks.length;i++)
             {
-                $('#drinks-links').append("<div class='col-md'><a href='Products.html?id="+drinks[i].id+"#products' class='card-link' id="+drinks[i].drink_name+">"+drinks[i].drink_name+"</a></div>");   
+                var drink_id=drinks[i].drink_name;
+                $('#drinks-links').append("<div class='col-md'><a href='Products.html?id="+drinks[i].id+"#products' class='card-link' id="+drinks[i].drink_name+">"+drink_id+"</a></div>");   
+                $("#"+drink_id).css("color",drinks[i].text_color);
             }
+
         });
   
     //Bottles Clicked Function
@@ -37,7 +40,10 @@ $(document).ready(function()
             $('#drinks-links').empty();
             for (i=0;i<drinks.length;i++)
             {
-                $('#drinks-links').append("<div class='col-md'><a href='Products.html?id="+drinks[i].id+"#products' class='card-link' id="+drinks[i].drink_name+">"+drinks[i].drink_name+"</a></div>");   
+                //$('#drinks-links').append("<div class='col-md'><a href='Products.html?id="+drinks[i].id+"#products' class='card-link' id="+drinks[i].drink_name+">"+drinks[i].drink_name+"</a></div>");   
+                var drink_id=drinks[i].drink_name;
+                $('#drinks-links').append("<div class='col-md'><a href='Products.html?id="+drinks[i].id+"#products' class='card-link' id="+drinks[i].drink_name+">"+drink_id+"</a></div>");   
+                $("#"+drink_id).css("color",drinks[i].text_color);
             }
         });
     });
@@ -58,7 +64,10 @@ $(document).ready(function()
             $('#drinks-links').empty();
             for (i=0;i<drinks.length;i++)
             {
-                $('#drinks-links').append("<div class='col-md'><a href='Products.html?id="+drinks[i].id+"#products' class='card-link' id="+drinks[i].drink_name+">"+drinks[i].drink_name+"</a></div");   
+                //$('#drinks-links').append("<div class='col-md'><a href='Products.html?id="+drinks[i].id+"#products' class='card-link' id="+drinks[i].drink_name+">"+drinks[i].drink_name+"</a></div");   
+                var drink_id=drinks[i].drink_name;
+                $('#drinks-links').append("<div class='col-md'><a href='Products.html?id="+drinks[i].id+"#products' class='card-link' id="+drinks[i].drink_name+">"+drink_id+"</a></div>");   
+                $("#"+drink_id).css("color",drinks[i].text_color);
             }
         });
     });
@@ -69,6 +78,7 @@ $(document).ready(function()
     var id=2;
     //get from Json the category information for bottled drinks and assemble here
     $("#category_image").css({"background":"url('img/main-information/juicy-main.png') no-repeat center","background-size": "cover"});
+    
     $.getJSON("API/get_drink_categories.php",function(json)
         {
             $('#drink_category_title').html(json[id].Short_Description); 
@@ -79,10 +89,35 @@ $(document).ready(function()
             $('#drinks-links').empty();
             for (i=0;i<drinks.length;i++)
             {
-                $('#drinks-links').append("<div class='col-md'><a href='Products.html?id="+drinks[i].id+"#products' class='card-link' id=juicy"+drinks[i].id+">"+drinks[i].drink_name+"</a></div>");   
+                //$('#drinks-links').append("<div class='col-md'><a href='Products.html?id="+drinks[i].id+"#products' class='card-link' id=juicy"+drinks[i].id+">"+drinks[i].drink_name+"</a></div>");
+                var drink_id=drinks[i].drink_name;
+                var drink_id_trimmed = drink_id.replace(/\s+/g, '');
+                $('#drinks-links').append("<div class='col-md'><a href='Products.html?id="+drinks[i].id+"#products' class='card-link' id="+drink_id_trimmed+">"+drink_id+"</a></div>");   
+                $("#"+drink_id_trimmed).css("color",drinks[i].text_color);
             }
         });
     });
+
+function changeDrinkCardInformation(id)
+{
+    $.getJSON("API/get_drink_categories.php",function(json)
+        {
+            $('#drink_category_title').html(json[id].Short_Description); 
+            $('#drink_category_text').html(json[id].Long_Description);
+        });
+    $.getJSON("API/get_drinks_by_category.php?id="+id,function(drinks)
+        {
+            $('#drinks-links').empty();
+            for (i=0;i<drinks.length;i++)
+            {
+                //$('#drinks-links').append("<div class='col-md'><a href='Products.html?id="+drinks[i].id+"#products' class='card-link' id=juicy"+drinks[i].id+">"+drinks[i].drink_name+"</a></div>");
+                var drink_id=drinks[i].drink_name;
+                var drink_id_trimmed = drink_id.replace(/\s+/g, '');
+                $('#drinks-links').append("<div class='col-md'><a href='Products.html?id="+drinks[i].id+"#products' class='card-link' id="+drink_id_trimmed+">"+drink_id+"</a></div>");   
+                $("#"+drink_id_trimmed).css("color",drinks[i].text_color);
+            }
+        });
+}
 });//end page 
 
 

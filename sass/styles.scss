@@ -34,50 +34,71 @@ src:url(ROCKEB.ttf);
   cursor: url(../img/MiniPigCursor.png), auto;
 }
 
-#cider{
-    color: #363636;
-}
-/* Nav Bar Styles */
 
-.navbar-dark
+/* Nav Bar Styles */
+.navbar-custom
+{
+    background-color: #2875a4!important;
+    font-family: Rockwell-ExtraBold;
+    font-size: 28pt;
+    .navbar-brand 
     {
         font-family: Rockwell-ExtraBold;
         font-size: 28pt;
-        .navbar-brand 
-            {
-                font-family: Rockwell-ExtraBold;
-                font-size: 28pt;
-                color: $site-logo;
-            }
-        #our_drinks,#bottled_products
-            {
-                color: $firstMenuText;
-            }
-        #about_us,#draught_products
-            {
-                color:$secondMenuText;
-            }
-        
-        #contact_us,#juicy_products
-            {   
-                color:$thirdMenuText;
-            }   
+        color: $site-logo;
     }
-
-
+    #our_drinks,#bottled_products
+    {
+    color: $firstMenuText;
+    }
+    #about_us,#draught_products
+    {
+        color:$secondMenuText;
+    }
+    #contact_us,#juicy_products
+    {   
+        color:$thirdMenuText;
+    }   
+}
 /*End Nav Bar */
 
+//Common Styles
+//Hero Image - Taps
+.page-hero 
+{
+    background:url('../img/all-pump-clips-DSC.jpg') no-repeat center;   
+    background-size: cover;
+    margin-top: 80px;
+    height: 701px;
+    position: relative;
+}
 
+.section-backgrounds
+{
+    background:url('../img/oak.jpg') no-repeat center;   
+    background-size: cover;
+    min-height:600px;
+    font-family: Rockwell-ExtraBold;
 
-#Hero_Background___Home 
+    h1
     {
-            background:url('../img/all-pump-clips-DSC.jpg') no-repeat center;   
-            background-size: cover;
-            margin-top: 80px;
-            height: 701px;
-            position: relative;
+    text-align: center;
+    color:#f9ebd9;
+    text-shadow: 5px 5px #363636;
     }
 
+    h5
+    {
+    
+        color: #2875a4; 
+        font-size: 1.75rem;
+    }
+    p
+    {
+        color:#60b7eb;
+        font-size: 1.25rem;
+    }
+}
 
 /*mini nav (drinks) */
 #green_patch
@@ -147,7 +168,7 @@ text-align: center;
 {
     background:url('../img/oak.jpg') no-repeat center;   
     background-size: cover;
-    min-height:800px;
+    min-height:600px;
     font-family: Rockwell-ExtraBold;
     #drink_card
     {
@@ -199,9 +220,7 @@ text-align: center;
             color: #2875a4;
         }
 
-    }
-
-   
+    
     #main_card_body
     {
         background-color: $site-logo;
@@ -307,39 +326,10 @@ h1
 
 
 
-#social_info
-{
-    background:url('../img/barrels.png') no-repeat center;
-    position: relative;
-    background-size: contain;
-    height:540px;
-    width:100%;
-    
-}
-
-#top_logo{
-    top: 50px;
-    left: 0px;
-    position: absolute;
-    transform: rotate(-10deg);
-}
 
 
-.social_information{
-  position: absolute;
-  left: 0;
-  top: 40%;
-  width: 100%;
-  text-align: center;
-  font-size: 24px;
-  font-family: Rockwell-ExtraBold;
-  color:#f9ebd9;
 
-}
 
-#test{
-    font-size:100px;
-}
 
 /*Drinks Links Color ids*/
 #Reveller{color:$Reveller;}
@@ -357,16 +347,7 @@ h1
 #juicy15{color:$TotallyMinted;}//TotallyMinted
 /*end*/
 
- .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-      }
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
 
 
 
@@ -411,6 +392,9 @@ h1
         
     }
 
-    
+
+
+}
+
 
    
