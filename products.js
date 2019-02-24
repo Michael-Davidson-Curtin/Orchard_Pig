@@ -40,6 +40,7 @@ function loadBarrels(drinks)
         $('#barrels_row').empty();
         for (i=0;i<drinks.length;i++)
             {   
+                //var image_source = "img/Products/Barrel Images/"+drinks[i].Category_Name+"/"+drinks[i].drink_name+".png";
                 var image_source = "img/Products/Barrel Images/"+drinks[i].Category_Name+"/"+drinks[i].drink_name+".png";
                 var image_alt_label = drinks[i].drink_name;
                 var image_id = drinks[i].drink_name;

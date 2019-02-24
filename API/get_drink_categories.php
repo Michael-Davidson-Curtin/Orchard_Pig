@@ -1,6 +1,6 @@
 <?php
 require_once ('../config.php');
-$query = "SELECT * FROM Categories";
+$query = "SELECT * FROM categories";
 
 $result = mysqli_query($connection, $query);
 $rows = array();
