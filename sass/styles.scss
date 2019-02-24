@@ -34,8 +34,9 @@ src:url(ROCKEB.ttf);
   cursor: url(../img/MiniPigCursor.png), auto;
 }
 
-
+//-------------------------------------------------------------//
 /* Nav Bar Styles */
+//-------------------------------------------------------------//
 .navbar-custom
 {
     background-color: #2875a4!important;
@@ -60,10 +61,16 @@ src:url(ROCKEB.ttf);
         color:$thirdMenuText;
     }   
 }
+//-----------------------------------------------------------------//
 /*End Nav Bar */
+//-----------------------------------------------------------------//
 
+
+//-----------------------------------------------------------------//
 //Common Styles
-//Hero Image - Taps
+//-----------------------------------------------------------------//
+
+//******* Hero Image - Taps********//
 .page-hero 
 {
     background:url('../img/all-pump-clips-DSC.jpg') no-repeat center;   
@@ -72,21 +79,29 @@ src:url(ROCKEB.ttf);
     height: 701px;
     position: relative;
 }
+//***** Hero End ********//
 
+
+//This controls all of the generic settings for the page/s
 .section-backgrounds
 {
     background:url('../img/oak.jpg') no-repeat center;   
     background-size: cover;
     min-height:600px;
     font-family: Rockwell-ExtraBold;
+    padding-top:20px;
 
+    #drink_card
+    {
+        margin-top: 5%;
+        border-radius: 20px 20px 20px 20px;
+    }
     h1
     {
-    text-align: center;
-    color:#f9ebd9;
-    text-shadow: 5px 5px #363636;
+        text-align: center;
+        color:#f9ebd9;
+        text-shadow: 5px 5px #363636;
     }
-
     h5
     {
     
@@ -98,302 +113,90 @@ src:url(ROCKEB.ttf);
         color:#60b7eb;
         font-size: 1.25rem;
     }
+    #drinks-links
+    {
+        font-size: 14pt;
+        font-family: Rockwell-ExtraBold;
+    }
+    #category_image
+    {
+        background:url('../img/bottles-main.png') no-repeat center;
+        background-size: cover;
+        border-radius: 20px 0px 0px 20px;
+        //height:400px;
+    }
+    #history_image
+    {
+    background: url('../img/OPlogo2012large.png');
+    background-size: cover;
+    border-radius: 20px 0px 0px 20px;
+    height:400px;
+    }
+    #product_card
+    {
+        margin-top: 10%;
+        border-radius: 20px 20px 20px 20px;
+    }
 }
-
 /*mini nav (drinks) */
 #green_patch
 {
-    
     height: 72px;
     background-color: #336666;
-    
-    
-}
 
-#green_patch div
-{
-    height: 72px;
-}
+    div
+    {
+        height: 72px;    
+    }
+    .col-sm
+    {
+        text-align: center;            
+    }
+    .signpost
+    {
+        position: inherit;
+        bottom: 153px;
+    }
 
-#green_patch .col-sm{
-text-align: center;    
-}
+    #bottled:hover
+    {
+        animation-name: waving_signpost;
+        animation-duration: 1s;
+        animation-iteration-count: 20;
+    }
 
+    #draught:hover
+    {
+        animation-name: waving_signpost;
+        animation-duration: 1s;
+        animation-iteration-count: 20;
+    }
 
-.signpost
-{
-    position: inherit;
-    bottom: 153px;
-}
+    #juicy:hover
+    {
+        animation-name: waving_signpost;
+        animation-duration: 1s;
+        animation-iteration-count: 20;
+    }
 
-#bottled:hover
-{
-    animation-name: waving_signpost;
-    animation-duration: 1s;
-    animation-iteration-count: 20;
-}
-
-#draught:hover
-{
-    animation-name: waving_signpost;
-    animation-duration: 1s;
-    animation-iteration-count: 20;
-}
-
-#juicy:hover
-{
-    animation-name: waving_signpost;
-    animation-duration: 1s;
-    animation-iteration-count: 20;
-}
-
-@keyframes waving_signpost {
+@keyframes waving_signpost 
+    {
       
       10%  {transform: rotate(-7deg);}
       40%  {transform: rotate(-10deg);}
       70%  {transform: rotate(7deg);}
       100%   {transform: rotate(10deg);}
-      
-}
-
-
-
-
-
-/*mini nav (drinks) End*/
-
-
-/*Content Section styling */
-#drinks,#about
-{
-    background:url('../img/oak.jpg') no-repeat center;   
-    background-size: cover;
-    min-height:600px;
-    font-family: Rockwell-ExtraBold;
-    #drink_card
-    {
-        margin-top: 10%;
-        border-radius: 20px 20px 20px 20px;
-        
-    
-        h5
-        {
-        
-            color: #2875a4; 
-            font-size: 1.75rem;
-        }
-        p
-        {
-            color:#60b7eb;
-            font-size: 1.25rem;
-        }
     }
-    
-    #about_card
-    {
-        margin-top: 2%;
-        border-radius: 20px 20px 20px 20px;
-        min-height:400px;
-
-        h5
-        {
-        
-            color: #2875a4; 
-            font-size: 1.75rem;
-        }
-        p
-        {
-            color:#60b7eb;
-            font-size: 1.25rem;
-        }
-        
-    }
-    .carousel-caption
-    {
-        border-radius: 20px;
-        background-color:rgba(200,200,200,0.75);
-        
-        h5
-        {
-            //background-color: #2e4a87;
-            font-size: 1.75rem;
-            color: #2875a4;
-        }
-
-    
-    #main_card_body
-    {
-        background-color: $site-logo;
-        font-family: Rockwell-ExtraBold;
-        border-radius: 0px 20px 20px 0px;
-       
-        #drinks-links
-        {
-            font-size: 14pt;
-            font-family: Rockwell-ExtraBold;
-        }
-    }
-    #category_image
-        {
-        background:url('../img/bottles-main.png') no-repeat center;
-        background-size: cover;
-        border-radius: 20px 0px 0px 20px;
-        //height:400px;
-        }
-    
-    #history_image
-        {
-        background: url('../img/OPlogo2012large.png');
-        background-size: cover;
-        border-radius: 20px 0px 0px 20px;
-        height:400px;
-        }
-}    
-
-
-h1
-{
-    
-    font-family: Rockwell-ExtraBold;
-    text-align: center;
-    color:#f9ebd9;
-    text-shadow: 5px 5px #363636;
 }
-
-
-
-#info
-{
-    margin-top: 10%;
-    display: inline-flex;
-}
-
-.info_image
-{
-    background :url('../img/bottles-main.png') no-repeat center;
-    background-size: contain;
-    width:500px;
-    height:400px;
-    background-color: #f9ebd9;
-    border-radius: 25px 0px 0px 25px;
-}
-
-.about_image
-{
-    /*background:url('/img/OPlogo2012large.png') no-repeat center;*/
-    background-size: contain;
-    width:480px;
-    height:400px;
-    background-color: #f9ebd9;
-       padding: 80px 60px 60px 60px;
-    border-radius: 25px 0px 0px 25px;
-}
-
-
-.info_panel
-{
-  
-    background-size: cover;
-    width:903px;
-    height: 400px;
-    background-color: #f9ebd9;
-    border-radius: 0px 25px 25px 0px;
-    font-family: Rockwell-ExtraBold;
-}
-
-
-
-.info_panel h2
-{
-    color:#2875a4;
-}
-
-.info_panel p
-{
-    
-    font-size: 20px;
-}
-
-#main-text{
-    background:url('../img/Orchard_pig_logo_shadow.png') no-repeat center;
-    height: 300px;
-    position: relative;
-    left: 2%;
-    width: 95%;
-    color:#60b7eb;
-    
-}
-
-
-
-
-
-
-
-
-/*Drinks Links Color ids*/
-#Reveller{color:$Reveller;}
-#Charmer{color:$Charmer;}
-#Truffler{color:$Truffler;}
-#HogFather{color:$HogFather;}
-#Explorer{color:$Explorer;}
-#Navelgazer{color:$Navelgazer;}
-#Ginger{color:$GingernChill;}
-#juicy10{color:$AppleTingler;}//AppleTingler
-#juicy11{color:$AppleRambler;}//AppleRambler
-#juicy12{color:$FlowerPower;}//FlowerPower
-#juicy13{color:$VeryBerried;}//VeryBerried
-#juicy14{color:$DeeplyRooted;}//DeeplyRooted
-#juicy15{color:$TotallyMinted;}//TotallyMinted
-/*end*/
-
-
-
-
-
 #barrels_row
 {
- width:100%;
- position: absolute;
- //padding:0 5% 0 5%;
- background:url('../img/oak.jpg') no-repeat center;   
- background-size: cover;
- bottom:0px;
- margin:0px;
-        
-    
-}
-
-
-    #products
-    {
-        background:url('../img/oak.jpg') no-repeat center;   
-        background-size: cover;
-        min-height:800px;
-        font-family: Rockwell-ExtraBold;
-        #product_card
-        {
-            margin-top: 10%;
-            border-radius: 20px 20px 20px 20px;
-            
-        
-            h5//associated with title
-            {
-            
-                color: #2875a4; 
-                font-size: 1.75rem;
-            }
-            p//associated with text
-            {
-                color:#60b7eb;
-                font-size: 1.25rem;
-            }
-        }
-        
-    }
-
-
-
+    width:100%;
+    position: absolute;
+    //padding:0 5% 0 5%;
+    background:url('../img/oak.jpg') no-repeat center;   
+    background-size: cover;
+    bottom:0px;
+    margin:0px;
 }
 
 
