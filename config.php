@@ -10,8 +10,14 @@ $dbuser = "root";
 $dbpass = "";
 $dbname = "Orchard_Pig";
 
-
-
+/*
+//Online DB Config
+$dbhost = "127.0.0.1";
+$dbuser = "id8539953_root";
+$dbpass = "Summer888Time";
+$dbname = "id8539953_Orchard_Pig";
+*/
+	
 
 // MySQL connection
 $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);

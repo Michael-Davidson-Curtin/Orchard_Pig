@@ -1,6 +1,6 @@
 <?php
 //this API will provide a list of beverage categories. This will be used to populate the main.php drinks section
-require '../config.php';
+require ('../config.php');
     $id=$_GET['id'];
 
 //hard coded test value

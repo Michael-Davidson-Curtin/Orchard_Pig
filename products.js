@@ -4,8 +4,7 @@ $(document).ready(function(){
 
 
     $.getJSON("API/get_drink_by_id.php?id="+id,function(drink){
-     
-        //change drink card content based on drink loaded
+      //change drink card content based on drink loaded
         
         changeDrinkContent(drink[0]);
     
