@@ -44,7 +44,18 @@ src:url(ROCKEB.ttf);
     #contact_us,#juicy_products
     {   
         color:$thirdMenuText;
-    }   
+    }
+    .custom-toggler.navbar-toggler {
+        border-color: $site-logo;
+    }
+    .custom-toggler .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(249,235,217, 0.3)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+    a.nav-link
+    {
+        padding: 0px;
+        margin: 0px 15px 0px 15px;
+    }
 }
 
 .footer
@@ -199,6 +210,18 @@ src:url(ROCKEB.ttf);
     margin:0px;
 }
 
+.carousel-caption
+{
+    background-color: rgba(0,0,0,0.5);
+    h5
+    {
+        color:$site-logo;
+    }
+    p
+    {
+        color:rgb(130, 187, 97);
 
+    }
+}
 
    

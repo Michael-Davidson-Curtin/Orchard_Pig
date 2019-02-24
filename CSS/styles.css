@@ -23,6 +23,13 @@
     color: #ed1941; }
   .navbar-custom #contact_us, .navbar-custom #juicy_products {
     color: #e18b5f; }
+  .navbar-custom .custom-toggler.navbar-toggler {
+    border-color: #f9ebd9; }
+  .navbar-custom .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(249,235,217, 0.3)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+  .navbar-custom a.nav-link {
+    padding: 0px;
+    margin: 0px 15px 0px 15px; }
 
 .footer {
   background-color: #2875a4 !important;
@@ -116,5 +123,12 @@
   background-size: cover;
   bottom: 0px;
   margin: 0px; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+  .carousel-caption h5 {
+    color: #f9ebd9; }
+  .carousel-caption p {
+    color: #82bb61; }
 
 /*# sourceMappingURL=styles.css.map */
