@@ -24,6 +24,12 @@
   .navbar-custom #contact_us, .navbar-custom #juicy_products {
     color: #e18b5f; }
 
+.footer {
+  background-color: #2875a4 !important;
+  background-color: #2875a4 !important;
+  font-family: Rockwell-ExtraBold;
+  font-size: 28pt; }
+
 /*End Nav Bar */
 .page-hero {
   background: url("../img/all-pump-clips-DSC.jpg") no-repeat center;
@@ -36,8 +42,7 @@
   background: url("../img/oak.jpg") no-repeat center;
   background-size: cover;
   min-height: 600px;
-  font-family: Rockwell-ExtraBold;
-  padding-top: 20px; }
+  font-family: Rockwell-ExtraBold; }
   .section-backgrounds #drink_card {
     margin-top: 5%;
     border-radius: 20px 20px 20px 20px; }
@@ -58,14 +63,19 @@
     background: url("../img/bottles-main.png") no-repeat center;
     background-size: cover;
     border-radius: 20px 0px 0px 20px; }
-  .section-backgrounds #history_image {
-    background: url("../img/OPlogo2012large.png");
-    background-size: cover;
-    border-radius: 20px 0px 0px 20px;
-    height: 400px; }
   .section-backgrounds #product_card {
     margin-top: 10%;
     border-radius: 20px 20px 20px 20px; }
+
+.footer {
+  background-color: #2875a4 !important;
+  color: #f9ebd9;
+  font-family: Rockwell-ExtraBold;
+  font-size: 16pt; }
+  .footer #common-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14;
+    color: #e18b5f; }
 
 /*mini nav (drinks) */
 #green_patch {
