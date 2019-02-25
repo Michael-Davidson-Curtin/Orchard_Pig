@@ -94,7 +94,7 @@
     text-align: center; }
   #green_patch .signpost {
     position: inherit;
-    bottom: 253px; }
+    bottom: 153px; }
   #green_patch #bottled:hover {
     animation-name: waving_signpost;
     animation-duration: 1s;
